@@ -38,7 +38,7 @@ export class paolu extends plugin {
 
     // 发送跑路完成消息
     const totalTime = Math.floor(Math.random() * 30) + 20;
-    await this.reply(`\n\n跑路完成，用时${totalTime}秒喵～`, false, { at: false });
+    await this.reply(`跑路完成，用时${totalTime}秒喵～`, false, { at: false });
   }
 
   // 随机选择动作
